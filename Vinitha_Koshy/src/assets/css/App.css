@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+/*img {
+  width: 100%;
+}*/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo{
+  width:35%;
+
+}
+
+.App-header {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.navigation li {
+  display: inline;
+  list-style: none;
+  margin-right: 40px;
+
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.left {
+  text-align: left;
+}
+
+/*Home*/
+.homecontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.homecontainer img{
+  width: 100%; 
+}
+
+.bakeryimage {
+  flex: 1;
+}
+
+
+.bakerytext {
+  flex: 1;
+  padding: 14px;
+
+}
+
+/*About*/
+.bakerypic {
+  display: inline-block;
+  flex-direction: row;
+}
+
+ 
+.aboutone, .abouttwo, .aboutthree{
+  display: 1;
+}
+
+
+
+/*Projects*/
+.projectcontainer {
+   display: flex;
+  flex-direction: row;
+}
+
+.projectcontainer img{
+  width: 100%;
+}
+
+
+/*Contact*/
+.contactcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactcontainer img{
+  width: 100%;
+}
+
+.mapimage{
+  flex: 1;
+}
+
+.mapimage img{
+  width: 100%;
+}
+
+.contacttext{
+  flex: 1;
+}
+
+
+
+
+/** For Desktop **/
+@media (min-width: 576px) {
+
+.homecontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutpic img {
+  width: 100%;
+  
+}
+
+.logo{
+  width:14%;
+
+}
+
+.contactcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mapimage img{
+  width: 50%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
